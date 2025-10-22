@@ -153,9 +153,9 @@ if os.environ["ENVIRONMENT"] == "PRODUCTION":
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage' 
 
 cloudinary.config(
-    cloud_name = os.environ['CLOUD_NAME'],
-    api_key = os.environ['API_KEY'],
-    api_secret = os.environ['API_SECRET']
+    cloud_name = "bongili",
+    api_key = "479259914118822",
+    api_secret = "21S9l1aekytyrx5dzIoEV952b2w"
 )
 
 
